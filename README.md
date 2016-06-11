@@ -4,7 +4,7 @@
 [![Software License][ico-license]](LICENSE.md)
 [![Total Downloads][ico-downloads]][link-downloads]
 
-Crawl cet movie rating, content rating, release date, poster, presentation, director, actor, duration and other information
+CET score inquiry 大学英语四六级成绩查询
 
 ## Install
 
