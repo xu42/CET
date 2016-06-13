@@ -17,6 +17,7 @@ $ composer require xu42/cet
 ## Usage
 
 ``` php
+require_once './vendor/autoload.php';
 $zkzh = '123456789101112';
 $xm = '张三';
 $cetScore = new \Xu42\cet\cetScore();
