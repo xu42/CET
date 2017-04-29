@@ -33,8 +33,8 @@ class CetBizImpl
 
     private function reCet($content)
     {
-        preg_match_all('/<table(.|\s)*?<\/table>/', $content, $matches);
-        preg_match_all('/(>)(.|\s)*?(<)/', $matches[0][1], $matches);
+        preg_match_all('/<table(.*?)<\/table>/s', $content, $matches);
+        preg_match_all('/(>)(.*?)(<)/s', $matches[0][1], $matches);
 
         $search = ['<', '>', '：', chr(13) . chr(10)];
         $replaceRes = str_replace($search, '', $matches[0]);
